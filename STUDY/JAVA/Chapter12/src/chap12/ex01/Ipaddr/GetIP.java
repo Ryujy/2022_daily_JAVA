@@ -8,6 +8,8 @@ public class GetIP {
 
 	public static void main(String[] args) throws IOException {
 		
+		// InetAddress 클래스는 ip 주소를 표현한 클래스
+		
 		//내 컴퓨터 IP 알아보기
 		InetAddress addr = InetAddress.getLocalHost(); // localhost == 내 컴퓨터 == 127.0.0.1
 		System.out.println("my pc ip : "+addr.getHostAddress());
